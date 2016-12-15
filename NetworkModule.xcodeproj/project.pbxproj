@@ -13,6 +13,8 @@
 		94F600411E02585C00580A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F600401E02585C00580A78 /* Assets.xcassets */; };
 		94F600441E02585C00580A78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F600421E02585C00580A78 /* LaunchScreen.storyboard */; };
 		94F6004C1E0258EF00580A78 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6004B1E0258EF00580A78 /* User.swift */; };
+		94F6004E1E029A5900580A78 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6004D1E029A5900580A78 /* Request.swift */; };
+		94F600501E029C7C00580A78 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6004F1E029C7C00580A78 /* UserRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		94F600431E02585C00580A78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F600451E02585C00580A78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94F6004B1E0258EF00580A78 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		94F6004D1E029A5900580A78 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		94F6004F1E029C7C00580A78 /* UserRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				94F600421E02585C00580A78 /* LaunchScreen.storyboard */,
 				94F600451E02585C00580A78 /* Info.plist */,
 				94F6004B1E0258EF00580A78 /* User.swift */,
+				94F6004D1E029A5900580A78 /* Request.swift */,
+				94F6004F1E029C7C00580A78 /* UserRequest.swift */,
 			);
 			path = NetworkModule;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F6003C1E02585C00580A78 /* ViewController.swift in Sources */,
+				94F6004E1E029A5900580A78 /* Request.swift in Sources */,
 				94F6003A1E02585C00580A78 /* AppDelegate.swift in Sources */,
+				94F600501E029C7C00580A78 /* UserRequest.swift in Sources */,
 				94F6004C1E0258EF00580A78 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
