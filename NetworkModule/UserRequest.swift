@@ -15,4 +15,10 @@ struct UserRequest: Request {
     var path: String { return "/users/\(name)" }
     let method: HTTPMethod = .get
     let parameter: [String: Any] = [:]
+    
+    typealias Response = User
+    
+    func parse(data: Data) -> User? {
+        return User(data: data)
+    }
 }
