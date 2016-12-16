@@ -14,13 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         let userRequest = UserRequest(name: "onevcat")
-        userRequest.send { user in
+        URLSessionClient().send(userRequest) { user in
             if let user = user {
                 print("\(user.message) from \(user.name)")
             }
         }
     }
-
-
 }
 

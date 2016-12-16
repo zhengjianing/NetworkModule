@@ -17,8 +17,4 @@ struct UserRequest: Request {
     let parameter: [String: Any] = [:]
     
     typealias Response = User
-    
-    func parse(data: Data) -> User? {
-        return User(data: data)
-    }
 }

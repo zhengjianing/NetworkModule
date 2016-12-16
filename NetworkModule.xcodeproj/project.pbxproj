@@ -16,6 +16,7 @@
 		94F6004E1E029A5900580A78 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6004D1E029A5900580A78 /* Request.swift */; };
 		94F600501E029C7C00580A78 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F6004F1E029C7C00580A78 /* UserRequest.swift */; };
 		94F600521E03981C00580A78 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F600511E03981C00580A78 /* Client.swift */; };
+		94F600541E039A3D00580A78 /* Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F600531E039A3D00580A78 /* Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		94F6004D1E029A5900580A78 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		94F6004F1E029C7C00580A78 /* UserRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
 		94F600511E03981C00580A78 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		94F600531E039A3D00580A78 /* Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				94F6004D1E029A5900580A78 /* Request.swift */,
 				94F6004F1E029C7C00580A78 /* UserRequest.swift */,
 				94F600511E03981C00580A78 /* Client.swift */,
+				94F600531E039A3D00580A78 /* Decodable.swift */,
 			);
 			path = NetworkModule;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				94F6003C1E02585C00580A78 /* ViewController.swift in Sources */,
 				94F6004E1E029A5900580A78 /* Request.swift in Sources */,
 				94F600521E03981C00580A78 /* Client.swift in Sources */,
+				94F600541E039A3D00580A78 /* Decodable.swift in Sources */,
 				94F6003A1E02585C00580A78 /* AppDelegate.swift in Sources */,
 				94F600501E029C7C00580A78 /* UserRequest.swift in Sources */,
 				94F6004C1E0258EF00580A78 /* User.swift in Sources */,
